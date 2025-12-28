@@ -68,7 +68,7 @@ body {
 
 
 .hero {
-    background-image: url("images/hero-car.jpg");
+    background-image: url("hero-car.jpg");
     background-size: cover;
   height: 665px;
   display: flex;
@@ -197,3 +197,4 @@ footer {
     font-size: 2rem;
   }
 }
+
