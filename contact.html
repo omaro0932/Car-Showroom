@@ -17,11 +17,14 @@
   </nav>
 </header>
 
-<section class="contact">
-  <form>
-    <input type="text" placeholder="الاسم">
-    <input type="email" placeholder="البريد الإلكتروني">
-    <textarea placeholder="رسالتك"></textarea>
+<section class="contact"
+action="https://formspree.io/f/xdaolplo"
+method="POST"
+  >
+ <form>
+    <input type="text" name="name" placeholder="الاسم" required>
+    <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+    <textarea name="message" placeholder="رسالتك" required ></textarea>
     <button type="submit">إرسال</button>
   </form>
 </section>
@@ -32,3 +35,4 @@
 
 </body>
 </html>
+
